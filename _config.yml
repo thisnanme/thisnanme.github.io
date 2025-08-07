@@ -102,4 +102,4 @@ theme: Claudia
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: git@ssh.github.com:thisnanme/thisnanme.git
+  repo: git@ssh.github.com:thisnanme/thisnanme.github.io.git
