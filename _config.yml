@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: thisnanmeの猪窝
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: thisnanme
 language: en
 timezone: ''
 
@@ -101,5 +101,6 @@ theme: Claudia
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
-  repo: git@ssh.github.com:thisnanme/thisnanme.github.io.git
+  type: git
+  repo: https://github.com/thisnanme/thisnanme.github.io.git
+  branch: gh-pages 
