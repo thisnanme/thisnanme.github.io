@@ -5,11 +5,11 @@
 # Site
 title: thisnanmeの猪窝
 subtitle: ''
-description: ''
+description: 'thisnanme的博客'
 keywords:
 author: thisnanme
-language: zh
-timezone: ''
+language: zh-CN
+timezone: America/New_York
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'

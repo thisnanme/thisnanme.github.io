@@ -18,14 +18,14 @@ social:
   facebook: /
   linkedin:
   instagram: /
-  github: haojen
+  github: thisnanme
 
 user:
   name: thisnanme
   avatar:
   location: In the dust
   description: May the Force be with you
-  footnotes: # footnotes
+  footnotes: thisnanmeの猪窝
 
 # documents: https://github.com/utterance/utterances
 # API config: https://utteranc.es/
@@ -58,8 +58,8 @@ friend_links:
     link: https://www.google.com/
   - title: Github
     link: https://www.github.com/
-  - title: V2EX
-    link: https://v2ex.com/
+  - title: 叉息的空中咖啡馆
+    link: https://www.xchere.fun/
   - title: Twitter
     link: https://twitter.com/
 
