@@ -61,7 +61,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/avatar.png
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner images
@@ -97,7 +97,7 @@ footer_img: true
 
 # Website Background
 # Can set it to color or image url
-background:
+background: /img/background.jpg
 
 cover:
   # Disable the cover or not
@@ -117,7 +117,7 @@ error_img:
 error_404:
   enable: true
   subtitle: '页面没有找到'
-  background:
+  background: /img/error-page.png
 
 
 post_meta:
@@ -206,8 +206,8 @@ toc:
 
 post_copyright:
   enable: true
-  decode: false
-  author_href:
+  decode: true
+  author_href: https://thisnanme.github.io
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -269,7 +269,7 @@ footer:
   copyright:
     enable: true
     version: true
-  custom_text:
+  custom_text:custom_text: Hi, welcome to my <a href="https://thisnanme.github.io">blog</a>!
 
 # --------------------------------------
 # Aside Settings
@@ -282,7 +282,7 @@ aside:
   button: true
   mobile: true
   # Position: left / right
-  position: right
+  position: left
   display:
     archive: true
     tag: true
@@ -294,7 +294,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/thisnanme
   card_announcement:
     enable: true
     content: This is my Blog
@@ -323,7 +323,7 @@ aside:
     enable: true
     # If set 0 will show all
     limit: 40
-    color: false
+    color: true
     # Order of tags, random/name/length
     orderby: random
     # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -356,7 +356,7 @@ aside:
     # Time difference between publish date and now
     # Formal: Month/Day/Year Time or Year/Month/Day Time
     # Leave it empty if you don't enable this feature
-    runtime_date:
+    runtime_date: 2025/8/9
 
 # --------------------------------------
 # Bottom right button
@@ -391,13 +391,13 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: false
+  autoChangeMode: 1
   # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
   start:
   end:
 
 # Show scroll percent in scroll-to-top button
-rightside_scroll_percent: false
+rightside_scroll_percent: true
 
 # Don't modify the following settings unless you know how they work
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -422,7 +422,7 @@ anchor:
   # Click the headline to scroll and update the anchor
   click_to_scroll: false
 
-photofigcaption: false
+photofigcaption: true
 
 copy:
   enable: true
@@ -457,7 +457,7 @@ busuanzi:
 math:
   # Choose: mathjax, katex
   # Leave it empty if you don't need math
-  use:
+  use: katex
   per_page: true
   hide_scrollbar: false
 
@@ -478,13 +478,8 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
-  placeholder:
-
-  # Algolia Search
-  algolia_search:
-    # Number of search results per page
-    hitsPerPage: 6
+  use: local_search
+  placeholder: 搜尋文章
 
   # Local Search
   local_search:
@@ -495,14 +490,6 @@ search:
     # Unescape html strings to the readable one.
     unescape: false
     CDN:
-
-  # Docsearch
-  # https://docsearch.algolia.com/
-  docsearch:
-    appId:
-    apiKey:
-    indexName:
-    option:
 
 # --------------------------------------
 # Share System
@@ -518,11 +505,6 @@ share:
   sharejs:
     sites: facebook,twitter,wechat,weibo,qq
 
-  # AddToAny
-  # https://www.addtoany.com/
-  addtoany:
-    item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
-
 # --------------------------------------
 # Comments System
 # --------------------------------------
@@ -532,7 +514,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use:
+  use: utterances
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -543,61 +525,10 @@ comments:
   # Display comment count in Home Page
   card_post_count: false
 
-# Disqus
-# https://disqus.com/
-disqus:
-  shortname:
-  # For newest comments widget
-  apikey:
-
-# Alternative Disqus - Render comments with Disqus API
-# https://github.com/SukkaW/DisqusJS
-disqusjs:
-  shortname:
-  apikey:
-  option:
-
-# Livere
-# https://www.livere.com/
-livere:
-  uid:
-
-# Gitalk
-# https://github.com/gitalk/gitalk
-gitalk:
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
-  option:
-
-# Valine
-# https://valine.js.org
-valine:
-  appId:
-  appKey:
-  avatar: monsterid
-  # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  serverURLs:
-  bg:
-  # Use Valine visitor count as the page view count
-  visitor: false
-  option:
-
-# Waline - A simple comment system with backend support fork from Valine
-# https://waline.js.org/
-waline:
-  serverURL:
-  bg:
-  # Use Waline pageview count as the page view count
-  pageview: false
-  option:
-
 # Utterances
 # https://utteranc.es/
 utterances:
-  repo:
+  repo: thisnanme/thisnanme.github.io
   # Issue Mapping: pathname/url/title/og:title
   issue_term: pathname
   # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
@@ -606,52 +537,7 @@ utterances:
   js:
   option:
 
-# Facebook Comments Plugin
-# https://developers.facebook.com/docs/plugins/comments/
-facebook_comments:
-  app_id:
-  # optional
-  user_id:
-  pageSize: 10
-  # Choose: social / time / reverse_time
-  order_by: social
-  lang: en_US
 
-# Twikoo
-# https://github.com/imaegoo/twikoo
-twikoo:
-  envId:
-  region:
-  # Use Twikoo visitor count as the page view count
-  visitor: false
-  option:
-
-# Giscus
-# https://giscus.app/
-giscus:
-  repo:
-  repo_id:
-  category_id:
-  light_theme: light
-  dark_theme: dark
-  js:
-  option:
-
-# Remark42
-# https://remark42.com/docs/configuration/frontend/
-remark42:
-  host:
-  siteId:
-  option:
-
-# Artalk
-# https://artalk.js.org/guide/frontend/config.html
-artalk:
-  server:
-  site:
-  # Use Artalk visitor count as the page view count
-  visitor: false
-  option:
 
 # --------------------------------------
 # Chat Services
@@ -754,23 +640,23 @@ site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
-#   paginator: "#00c4b6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00c4b6"
-#   link_color: "#99a9bf"
-#   meta_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   code_foreground: "#F47466"
-#   code_background: "rgba(27, 31, 35, .05)"
-#   toc_color: "#00c4b6"
-#   blockquote_padding_color: "#49b1f5"
-#   blockquote_background_color: "#49b1f5"
-#   scrollbar_color: "#49b1f5"
-#   meta_theme_color_light: "ffffff"
-#   meta_theme_color_dark: "#0d0d0d"
+theme_color:
+  enable: true
+  main: "#49B1F5"
+  paginator: "#00c4b6"
+  button_hover: "#FF7242"
+  text_selection: "#00c4b6"
+  link_color: "#99a9bf"
+  meta_color: "#858585"
+  hr_color: "#A4D8FA"
+  code_foreground: "#F47466"
+  code_background: "rgba(27, 31, 35, .05)"
+  toc_color: "#00c4b6"
+  blockquote_padding_color: "#49b1f5"
+  blockquote_background_color: "#49b1f5"
+  scrollbar_color: "#49b1f5"
+  meta_theme_color_light: "ffffff"
+  meta_theme_color_dark: "#0d0d0d"
 
 # The user interface setting of category and tag page
 # Choose: index - same as Homepage UI / default - same as archives UI
@@ -797,7 +683,7 @@ preloader:
   # 2. pace (progress bar)
   source: 1
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: 
 
 # Page Transition
 enter_transitions: true
@@ -1118,7 +1004,13 @@ CDN:
     # sharejs_css:
     # snackbar:
     # snackbar_css:
-    # translate:
+    translate:
+      enable: true
+      default: 简
+      defaultEncoding: 1
+      translateDelay: 0
+      msgToTraditionalChinese: '繁'
+      msgToSimplifiedChinese: '简'
     # twikoo:
     # typed:
     # utils:

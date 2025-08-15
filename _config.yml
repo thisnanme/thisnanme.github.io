@@ -8,7 +8,7 @@ subtitle: ''
 description: thisnanme's blog
 keywords:
 author: thisnanme
-language: zh-TW
+language: zh-HK
 timezone: America/New_York
 
 # URL
@@ -97,6 +97,11 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+
+markdown:
+  plugins:
+    - '@renbaoshuo/markdown-it-katex'
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

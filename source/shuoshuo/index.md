@@ -1,4 +1,5 @@
 ---
 title: shuoshuo
 date: 2025-08-10 18:54:50
+type: 'shuoshuo'
 ---

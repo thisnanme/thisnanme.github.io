@@ -16,12 +16,29 @@
     - name: Youtube
       link: https://www.youtube.com/
       avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
-      descr: 視頻網站
-    - name: Weibo
-      link: https://www.weibo.com/
-      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
-      descr: 中國最大社交分享平台
-    - name: Twitter
-      link: https://twitter.com/
-      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
-      descr: 社交分享平台
+      descr: 看世界之所看，隨時隨地觀看最熱門的視頻，全部盡覽無遺
+    # - name: Pornhub
+    #   link: https://pornhub.com/
+    #   avatar: 
+    #   descr: 全球最大的色情影片分享網站
+    # - name: X(Twitter)
+    #   link: https://X.com/
+    #   avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+    #   descr: 全球首選社交應用，瞭解世界動態的來源，交友或關注大咖
+    # - name: TikTok
+    #   link: https://X.com/
+    #   avatar: 
+    #   descr: 抖音海外版，在這裡看各國帥哥和小姐姐的精彩舞蹈和各類短視頻
+    # - name: TikTok
+    #   link: https://X.com/
+    #   avatar: 
+    #   descr: 及時了解世界的大事小事，自由探索，隨心分享生活點滴
+    # - name: TikTok
+    #   link: https://X.com/
+    #   avatar: 
+    #   descr: 接觸世界，看看海外的朋友在做什麼，保持聯繫比以往更快
+    # - name: TikTok
+    #   link: https://X.com/
+    #   avatar: 
+    #   descr: 全球華人並每日更新的新聞資訊網站
+
