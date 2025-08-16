@@ -93,11 +93,11 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: true
+footer_img: transparent
 
 # Website Background
 # Can set it to color or image url
-background: /img/background.jpg
+background: /img/background.webp
 
 cover:
   # Disable the cover or not
@@ -111,13 +111,13 @@ cover:
 # Replace Broken Images
 error_img:
   flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  post_page: /img/404.webp
 
 # A simple 404 page
 error_404:
   enable: true
   subtitle: '页面没有找到'
-  background: /img/error-page.png
+  background: /img/error-page.webp
 
 
 post_meta:
@@ -269,7 +269,8 @@ footer:
   copyright:
     enable: true
     version: true
-  custom_text:custom_text: Hi, welcome to my <a href="https://thisnanme.github.io">blog</a>!
+    custom_text: <a href="https://icp.gov.moe/?keyword=20250926" target="_blank">萌ICP备20250926号</a>
+
 
 # --------------------------------------
 # Aside Settings
@@ -677,13 +678,13 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: 
+  pace_css_url: /css/mac-osx.css
 
 # Page Transition
 enter_transitions: true
@@ -693,26 +694,25 @@ display_mode: light
 
 # Configuration for beautifying the content of the article
 beautify:
-  enable: false
-  # Specify the field to beautify (site or post)
-  field: post
-  # Specify the icon to be used as a prefix for the title, such as '\f0c1'
-  title_prefix_icon:
-  # Specify the color of the title prefix icon, such as '#F47466'
-  title_prefix_icon_color:
+  enable: true
+  field: site # site/post
+  title-prefix-icon: '\f0c1'
+  title-prefix-icon-color: '#F47466'
 
 # Global font settings
-# Don't modify the following settings unless you know how they work
+# Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global_font_size:
-  code_font_size:
-  font_family:
-  code_font_family:
+  global-font-size:
+  code-font-size:
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
+# 左上角網站名字 主頁居中網站名字
 blog_title_font:
-  font_link:
-  font_family:
+  font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+
 
 # The setting of divider icon
 hr_icon:
@@ -724,9 +724,9 @@ hr_icon:
 # Typewriter Effect
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
-  colorful: true
-  shake: true
+  enable: true
+  colorful: true # open particle animation (冒光特效)
+  shake: true #  open shake (抖動特效)
   mobile: false
 
 # Background effects
@@ -765,8 +765,8 @@ canvas_nest:
 
 # Mouse click effects: fireworks
 fireworks:
-  enable: false
-  zIndex: 9999
+  enable: true
+  zIndex: 9999 # -1 or 9999
   mobile: false
 
 # Mouse click effects: Heart symbol
@@ -793,7 +793,7 @@ clickShowText:
 # https://github.com/francoischalifour/medium-zoom
 # https://fancyapps.com/fancybox/
 # Leave it empty if you don't need lightbox
-lightbox:
+lightbox: fancybox
 
 # --------------------------------------
 # Tag Plugins settings
@@ -817,9 +817,9 @@ abcjs:
 # Mermaid
 # https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # Write Mermaid diagrams using code blocks
-  code_write: false
+  code_write: true
   # built-in themes: default / forest / dark / neutral
   theme:
     light: default
@@ -878,15 +878,14 @@ aplayerInject:
 # https://github.com/polonel/SnackBar
 # position: top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
+  enable: true
   position: bottom-left
-  # The background color of Toast Notification in light mode and dark mode
-  bg_light: '#49b1f5'
-  bg_dark: '#1f1f1f'
+  bg_light: '#49b1f5' #light mode时弹窗背景
+  bg_dark: '#2d3035' #dark mode时弹窗背景
 
 # Instant.page
 # https://instant.page/
-instantpage: false
+instantpage: true
 
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
