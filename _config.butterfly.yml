@@ -269,7 +269,7 @@ footer:
   copyright:
     enable: true
     version: true
-    custom_text: <a href="https://icp.gov.moe/?keyword=20250926" target="_blank">萌ICP备20250926号</a>
+  custom_text: <a href="https://icp.gov.moe/?keyword=20250926" target="_blank">萌ICP备20250926号</a>
 
 
 # --------------------------------------
