@@ -4,12 +4,12 @@
 
 # Site
 title: thisnanmeの豬窩
-subtitle: ''
+subtitle: thisnanme's blog
 description: thisnanme的博客 | 分享編程技術、讀書筆記、科學科普與生活隨筆 | 專注實用資源下載與深度內容創作 | 探索技術與人文的交匯之美
 keywords:
 author: thisnanme
 language: zh-HK
-timezone: America/New_York
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
