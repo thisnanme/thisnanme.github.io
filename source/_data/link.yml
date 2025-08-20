@@ -8,7 +8,7 @@
     - name: 叉息的空中咖啡馆
       link: https://www.xchere.fun/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3176174845&s=640
-      descr: 无
+      descr: 一个自在青年的博客
 
 - class_name: 網站
   class_desc: 值得推薦的網站
@@ -17,28 +17,38 @@
       link: https://www.youtube.com/
       avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
       descr: 看世界之所看，隨時隨地觀看最熱門的視頻，全部盡覽無遺
-    # - name: Pornhub
-    #   link: https://pornhub.com/
-    #   avatar: 
-    #   descr: 全球最大的色情影片分享網站
-    # - name: X(Twitter)
-    #   link: https://X.com/
-    #   avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
-    #   descr: 全球首選社交應用，瞭解世界動態的來源，交友或關注大咖
+    - name: Pornhub
+      link: https://www.pornhub.com/
+      avatar: 
+      descr: 全球最大的色情影片分享網站
+    - name: X(Twitter)
+      link: https://X.com/
+      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+      descr: 全球首選社交應用，瞭解世界動態的來源，交友或關注大咖
+    - name: TikTok
+      link: https://tiktok.com/
+      avatar: https://th.bing.com/th/id/ODF.6ZkCjv2hR5s6SR35yaulqQ?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2
+      descr: 抖音海外版，在這裡看各國帥哥和小姐姐的精彩舞蹈和各類短視頻
+    - name: Instagram
+      link: https://instagram.com
+      avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/120px-Instagram_logo_2022.svg.png
+      descr: 及時了解世界的大事小事，自由探索，隨心分享生活點滴
+    - name: 哔咔漫画
+      link: https://manhuapica.com/
+      avatar: https://th.bing.com/th/id/ODF.suabNWZ_MztNSVaEaH2nyQ?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2
+      descr: 輕鬆看到不同本子，分類齊全，每日更新，紳士必備
+    - name: 谷歌
+      link: https://www.google.com/
+      avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/250px-Google_2015_logo.svg.png
+      descr: 互聯網上最大、影響最廣泛的搜索引擎
     # - name: TikTok
-    #   link: https://X.com/
+    #   link: https://tiktok.com/
     #   avatar: 
-    #   descr: 抖音海外版，在這裡看各國帥哥和小姐姐的精彩舞蹈和各類短視頻
-    # - name: TikTok
-    #   link: https://X.com/
+    #   descr: 日本最火的二次元虛擬社群網站，海量插畫、漫畫小說資源。
+    # - name: Pixiv
+    #   link: 
     #   avatar: 
-    #   descr: 及時了解世界的大事小事，自由探索，隨心分享生活點滴
-    # - name: TikTok
-    #   link: https://X.com/
-    #   avatar: 
-    #   descr: 接觸世界，看看海外的朋友在做什麼，保持聯繫比以往更快
-    # - name: TikTok
-    #   link: https://X.com/
-    #   avatar: 
-    #   descr: 全球華人並每日更新的新聞資訊網站
+    #   descr: 日本最火的二次元虛擬社群網站，海量插畫、漫畫小說資源。
+    
+
 
