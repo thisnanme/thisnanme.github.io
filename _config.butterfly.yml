@@ -1003,13 +1003,13 @@ CDN:
     # sharejs_css:
     # snackbar:
     # snackbar_css:
-    translate:
-      enable: true
-      default: 简
-      defaultEncoding: 1
-      translateDelay: 0
-      msgToTraditionalChinese: '繁'
-      msgToSimplifiedChinese: '简'
+    # translate:
+    #   enable: true
+    #   default: 简
+    #   defaultEncoding: 1
+    #   translateDelay: 0
+    #   msgToTraditionalChinese: '繁'
+    #   msgToSimplifiedChinese: '简'
     # twikoo:
     # typed:
     # utils:
