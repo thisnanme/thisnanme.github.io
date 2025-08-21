@@ -19,36 +19,77 @@
       descr: 看世界之所看，隨時隨地觀看最熱門的視頻，全部盡覽無遺
     - name: Pornhub
       link: https://www.pornhub.com/
-      avatar: https://th.bing.com/th/id/ODF.Jga_DLJ92ZvM0QGHSRmj8g?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2
+      avatar: https://www.pornhub.com/favicon.ico
       descr: 全球最大的色情影片分享網站
     - name: X(Twitter)
       link: https://X.com/
       avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
       descr: 全球首選社交應用，瞭解世界動態的來源，交友或關注大咖
     - name: TikTok
-      link: https://tiktok.com/
-      avatar: https://th.bing.com/th/id/ODF.6ZkCjv2hR5s6SR35yaulqQ?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2
+      link: https://WWW.tiktok.com/
+      avatar: https://WWW.douyin.com/favicon.ico
       descr: 抖音海外版，在這裡看各國帥哥和小姐姐的精彩舞蹈和各類短視頻
     - name: Instagram
       link: https://instagram.com
       avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/120px-Instagram_logo_2022.svg.png
       descr: 及時了解世界的大事小事，自由探索，隨心分享生活點滴
-    - name: 哔咔漫画
+    - name: 嗶咔漫畫
       link: https://manhuapica.com/
       avatar: https://th.bing.com/th/id/ODF.suabNWZ_MztNSVaEaH2nyQ?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2
       descr: 輕鬆看到不同本子，分類齊全，每日更新，紳士必備
     - name: 谷歌
       link: https://www.google.com/
-      avatar: https://th.bing.com/th/id/ODF.cQGDzDdW-31GYqwCeCzTrw?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2
+      avatar: https://www.google.com/favicon.ico
       descr: 互聯網上最大、影響最廣泛的搜索引擎
-    # - name: TikTok
-    #   link: https://tiktok.com/
-    #   avatar: 
-    #   descr: 日本最火的二次元虛擬社群網站，海量插畫、漫畫小說資源。
-    # - name: Pixiv
-    #   link: 
-    #   avatar: 
-    #   descr: 日本最火的二次元虛擬社群網站，海量插畫、漫畫小說資源。
+    - name: Telegram
+      link: https://telegram.org/
+      avatar: https://telegram.org/favicon.ico
+      descr: 接觸世界，看看海外的朋友們在做什麼，保持聯繫比以往更快
+    - name: Pixiv
+      link: https://www.pixiv.net/
+      avatar: https://www.pixiv.net/favicon.ico
+      descr: 日本最火的二次元虛擬社群網站，海量插畫、漫畫小說資源
+    - name: BBC News中文網
+      link: https://www.bbc.com/zhongwen/simp
+      avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/BBC_News_2022_%28Alt%29.svg/250px-BBC_News_2022_%28Alt%29.svg.png
+      descr: 面向全球華人並每日更新的新聞資訊網站
+    - name: Netflix
+      link: https://www.netflix.com
+      avatar: https://www.netflix.com/favicon.ico
+      descr: 全世界最大的視頻流媒體平台，擁有全球最高質量的影視資源
+    - name: LINE
+      link: https://www.line.me/
+      avatar: https://www.line.me/favicon.ico
+      descr: 無論身在何處，使用免費語音和視頻通話，拉近與親朋好友的距離
+    - name: 亞馬遜
+      link: https://www.amazon.com/
+      avatar: https://www.amazon.com/favicon.ico
+      descr: 美國最大的電商網站，也是海淘最熱門的網站
+    - name: Twitch
+      link: https://www.twitch.tv/
+      avatar: https://www.twitch.tv/favicon.ico
+      descr: 一手掌握遊戲實況和玩家聊天、觀看視頻和電競直播
+    - name: Steam
+      link: https://store.steampowered.com/
+      avatar: https://store.steampowered.com/favicon.ico
+      descr: 暢玩遊戲，討論遊戲，創造遊戲。世界上無人能及的快樂所在
+    # - name: 谷歌商店
+    #   link: https://play.google.com/
+    #   avatar: https://play.google.com/favicon.ico
+    #   descr: 安卓手機和平板的官方應用程序商店
+    # - name: Github
+    #   link: https://www.pixiv.net/
+    #   avatar: https://www.pixiv.net/favicon.ico
+    #   descr: 面向開源及私有軟件項目，幫助開發者進行託管的平台
+    # - name: Reddit
+    #   link: https://www.pixiv.net/
+    #   avatar: https://www.pixiv.net/favicon.ico
+    #   descr: 娛樂、社交及新聞網站，是獲取全球新鮮事的好地方
+    # - name: Facebook
+    #   link: https://telegram.org/
+    #   avatar: https://telegram.org/favicon.ico
+    #   descr: 接觸世界，看看海外的朋友們在做什麼，保持聯繫比以往更快。
+      
     
 
 
