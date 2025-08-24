@@ -108,4 +108,4 @@ markdown:
 deploy:
   type: git
   repo: git@ssh.github.com:thisnanme/thisnanme.github.io.git
-  branch: gh-pages 
+  branch: gh-pages
