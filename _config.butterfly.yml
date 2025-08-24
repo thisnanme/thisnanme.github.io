@@ -148,9 +148,8 @@ post_meta:
 # The top_img settings of home page
 # default: top img - full screen, site info - middle
 # The position of site info, eg: 300px/300em/300rem/10%
-index_site_info_top:
-# The height of top_img, eg: 300px/300em/300rem
-index_top_img_height:
+index_site_info_top: 10%  # 调整移动端显示
+index_top_img_height: 300px  # 为移动端设置合适的高度
 
 # The subtitle on homepage
 subtitle:
@@ -247,13 +246,13 @@ post_pagination: 1
 
 # Displays outdated notice for a post
 noticeOutdate:
-  enable: false
+  enable: true
   # Style: simple / flat
   style: flat
   # When will it be shown
   limit_day: 365
   # Position: top / bottom
-  position: top
+  position: bottom
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
 
@@ -434,7 +433,7 @@ copy:
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -520,7 +519,7 @@ comments:
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
+  lazyload: true
   # Display comment count in post's top_img
   count: false
   # Display comment count in Home Page
@@ -574,13 +573,13 @@ crisp:
 baidu_analytics:
 
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: G-H3F0X289VT
 
 # https://www.cloudflare.com/zh-tw/web-analytics/
 cloudflare_analytics:
 
 # https://clarity.microsoft.com/
-microsoft_clarity:
+microsoft_clarity: szu3shhdmd
 
 # https://umami.is/
 umami_analytics:
@@ -864,7 +863,7 @@ note:
 
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   # Exclude the specified pages from pjax, such as '/music/'
   exclude:
     # - /xxxxxx/
@@ -890,9 +889,9 @@ instantpage: true
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   # Use browser's native lazyload instead of vanilla-lazyload
-  native: false
+  native: true
   # Specify the field to use lazyload (site or post)
   field: site
   placeholder:
@@ -964,7 +963,7 @@ CDN:
     # artalk_css:
     # artalk_js:
     # blueimp_md5:
-    # busuanzi:
+    busuanzi: https://cdnjs.cloudflare.com/ajax/libs/busuanzi/2.3.0/bsz.pure.mini.min.js
     # canvas_fluttering_ribbon:
     # canvas_nest:
     # canvas_ribbon:
@@ -1004,13 +1003,6 @@ CDN:
     # snackbar:
     # snackbar_css:
     # translate:
-    #   enable: true
-    #   default: 简
-    #   defaultEncoding: 1
-    #   translateDelay: 0
-    #   msgToTraditionalChinese: '繁'
-    #   msgToSimplifiedChinese: '简'
-    # twikoo:
     # typed:
     # utils:
     # valine:
