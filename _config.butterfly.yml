@@ -628,8 +628,8 @@ ad:
 # --------------------------------------
 
 site_verification:
-  # - name: google-site-verification
-  #   content: xxxxxx
+  - name: google-site-verification
+    content: fYvDHExMzGnJPd5vxtqKCNHBS2CNPcrXAmMfAIzXAZY
   # - name: baidu-site-verification
   #   content: xxxxxxx
 
