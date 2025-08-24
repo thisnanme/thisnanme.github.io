@@ -73,22 +73,35 @@
       link: https://store.steampowered.com/
       avatar: https://store.steampowered.com/favicon.ico
       descr: 暢玩遊戲，討論遊戲，創造遊戲。世界上無人能及的快樂所在
-    # - name: 谷歌商店
-    #   link: https://play.google.com/
-    #   avatar: https://play.google.com/favicon.ico
-    #   descr: 安卓手機和平板的官方應用程序商店
-    # - name: Github
-    #   link: https://www.pixiv.net/
-    #   avatar: https://www.pixiv.net/favicon.ico
-    #   descr: 面向開源及私有軟件項目，幫助開發者進行託管的平台
-    # - name: Reddit
-    #   link: https://www.pixiv.net/
-    #   avatar: https://www.pixiv.net/favicon.ico
-    #   descr: 娛樂、社交及新聞網站，是獲取全球新鮮事的好地方
-    # - name: Facebook
-    #   link: https://telegram.org/
-    #   avatar: https://telegram.org/favicon.ico
-    #   descr: 接觸世界，看看海外的朋友們在做什麼，保持聯繫比以往更快。
+    - name: 谷歌商店
+      link: https://play.google.com/
+      avatar: https://play.google.com/favicon.ico
+      descr: 安卓手機和平板的官方應用程序商店
+    - name: Github
+      link: https://github.com/
+      avatar: https://github.com/favicon.ico
+      descr: 面向開源及私有軟件項目，幫助開發者進行託管的平台
+    - name: Reddit
+      link: https://www.reddit.com/
+      avatar: https://www.reddit.com/favicon.ico
+      descr: 娛樂、社交及新聞網站，是獲取全球新鮮事的好地方
+    - name: Facebook
+      link: https://facebook.com/
+      avatar: https://facebook.com/favicon.ico
+      descr: 接觸世界，看看海外的朋友們在做什麼，保持聯繫比以往更快
+    - name: 幣安
+      link: https://www.binance.com/
+      avatar: https://thfvnext.bing.com/th/id/ODF.h_ttGAYLbLXfr6ZT0_rmwg?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2
+      descr: 加密貨幣交易所——全球交易量領先的比特幣和altcoin平台
+    - name: Disney+
+      link: https://www.disneyplus.com/
+      avatar: https://disneyplus.disney.co.jp/favicon.ico
+      descr: 集齊迪士尼、彼思、Marvel和星球大戰等精彩流媒體
+    - name: Hulu
+      link: https://www.hulu.com/
+      avatar: https://www.hulu.jp/favicon.ico
+      descr: 海外熱劇，最新資源，全球大片不容錯過
+
       
     
 
