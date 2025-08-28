@@ -109,3 +109,7 @@ deploy:
   type: git
   repo: git@ssh.github.com:thisnanme/thisnanme.github.io.git
   branch: gh-pages
+
+# HTML/CSS/JS压缩
+all_minifier:
+  enable: true
