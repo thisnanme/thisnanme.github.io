@@ -61,7 +61,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/avatar.jpg
+  img: https://ooo.0x0.ooo/2025/08/28/Of8otK.jpg
   effect: false
 
 # Disable all banner images
@@ -110,14 +110,14 @@ cover:
 
 # Replace Broken Images
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.webp
+  flink: https://ooo.0x0.ooo/2025/08/28/Of8UsC.gif
+  post_page: https://ooo.0x0.ooo/2025/08/28/Of8boL.webp
 
 # A simple 404 page
 error_404:
   enable: true
   subtitle: '页面没有找到'
-  background: /img/error-page.webp
+  background: https://ooo.0x0.ooo/2025/08/28/Of8TgN.webp
 
 
 post_meta:
