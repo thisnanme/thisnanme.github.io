@@ -113,15 +113,3 @@ deploy:
 # HTML/CSS/JS压缩
 all_minifier:
   enable: true
-
-live2d:
-  enable: true
-  scriptFrom: local  # ← 使用本地脚本，由插件自动注入
-  pluginRootPath: live2d_models/
-  pluginModelPath: Allium/
-  model:
-    use: Allium
-  display:
-    position: right
-    width: 150
-    height: 300
