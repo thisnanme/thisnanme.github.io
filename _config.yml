@@ -113,3 +113,6 @@ deploy:
 # HTML/CSS/JS压缩
 all_minifier:
   enable: true
+
+live2d: ##自定义看板娘动画
+  enable: true
