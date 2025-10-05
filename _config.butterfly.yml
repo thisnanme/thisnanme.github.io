@@ -934,7 +934,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    # - <script src="xxxx"></script>
+    # - <script src="/live2d-widget/autoload.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
